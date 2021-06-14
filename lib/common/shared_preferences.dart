@@ -1,5 +1,5 @@
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:simple_wol/wol.dart';
+import 'package:simple_wol/common/wol.dart';
 
 /// saves a WOLItem list as a JSON string in storage
 Future<void> saveWOLItems(List<WOLItem> items) async {
